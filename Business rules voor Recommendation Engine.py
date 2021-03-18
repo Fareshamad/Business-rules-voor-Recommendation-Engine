@@ -69,7 +69,9 @@ def collaborative_filter():
     print("TABLE {most_viewed} is gemaakt.\ndata is toegevoegd.")
     disconnect()
 
-
+#{  Content_filtering }
+    
+    
 def Content_filter():
     """deze functie neemt de target audience van de meeste bekeken producten en vervolgens wordt naar de 3 laagste prijzen van elke target audience
     en die wordt toegevoegd aan de nieuw table met de naam en id"""
